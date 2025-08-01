@@ -1,0 +1,308 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>portfolio</title>
+    <link rel="stylesheet" href="style.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;500;600;700;800;900&display=swap"
+      rel="stylesheet"
+    />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/7.0.0/css/all.min.css"
+      integrity="sha512-DxV+EoADOkOygM4IR9yXP8Sb2qwgidEmeqAEmDKIOfPRQZOWbXCzLC6vjbZyy0vPisbH2SyW27+ddLVCN+OMzQ=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+  </head>
+  <body>
+   <nav class="navbar">
+  <div class="navbar-container">
+    <div class="menu-toggle">
+      <i class="fa-solid fa-bars"></i>
+    </div>
+    <h1 class="name">Sandhya Kumari</h1>
+    <ul class="nav-content">
+      <li><a href="#Banner">Home</a></li>
+      <li><a href="#service">Services</a></li>
+      <li><a href="#footer">Contact</a></li>
+      <li><a href="#about">About</a></li>
+    </ul>
+    <div class="profile-con">
+       <div class="profile">
+       <a href="profile.html">
+         <img src="sandhya devi.png" class="profile-img" alt="">
+       </a>
+            
+    </div>
+     <span class="profile-span profileText">Profile</span>
+    </div>
+   
+  </div>
+</nav>
+     
+    <!-- ---------------------------------Banner section---------------------------------- -->
+    <div class="Banner-Section" id="Banner">
+      <div class="image">
+        <img src="sandhya devi.png" alt="Sandhya Devi" />
+      </div>
+      <div class="design">
+        <div class="content">
+          <p class="ui">UI/UX Designer & MERN Stack Developer</p>
+          <h2 class="intro">
+            Hello, I'm <span class="name-highlight">Sandhya Kumari</span>
+          </h2>
+          <p class="sub-intro">From Bihar, India</p>
+        </div>
+
+        <div class="description-container">
+          <p class="description">
+            As a versatile IT professional, I possess a diverse skill set
+            encompassing web development technologies. My expertise including
+            proficiency in HTML, CSS, JavaScript, Tailwind CSS, React JS,
+            Express JS, and MongoDB (MERN Stack). Currently pursuing MCA from
+            RIT (Roorkee Institute of Technology) Roorkee, Uttrakhand, I have
+            honed my ability to communicate complex technical concepts
+            effectively.
+          </p>
+          <div class="action-buttons">
+            <a href="CV (Sandhya).pdf" target="_blank" class="cv">Download CV</a>
+            <a href="#footer" class="contact" target="_blank">Contact Me</a>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <!-- About section____________________________________________ -->
+   <div class="about-section" id="about">
+      <div class="about-container">
+        <h2 class="about">About Me</h2>
+
+        <div class="skill_container">
+          <ul class="skill-section">
+            <li class="tab-link active-tab" onclick="active_link('skill')">
+              Skills
+            </li>
+            <li class="tab-link" onclick="active_link('experience')">
+              Experience
+            </li>
+            <li class="tab-link" onclick="active_link('education')">
+              Education
+            </li>
+          </ul>
+        </div>
+
+        <div id="skill" class="skill activeLink tab-content">
+          <h2 class="content-heading">My Skills</h2>
+          <div class="skills-grid">
+            <div class="skill-item">HTML</div>
+            <div class="skill-item">CSS</div>
+            <div class="skill-item">JavaScript</div>
+            <div class="skill-item">Tailwind CSS</div>
+            <div class="skill-item">React JS</div>
+            <div class="skill-item">Node Js</div>
+            <div class="skill-item">Express JS</div>
+            <div class="skill-item">MongoDB</div>
+            <div class="skill-item">SQL</div>
+            <div class="skill-item">Java Programming</div>
+          </div>
+        </div>
+
+        <div id="experience" class="experience tab-content">
+          <h2 class="content-heading">Professional Experience</h2>
+          <ul class="experience-list">
+            <li>
+              <span class="experience-icon">→</span>
+              Create complex financial model and dashboard using advance formula
+              (VLOOKUP, INDEXMATCH, SUMIF)
+            </li>
+            <li>
+              <span class="experience-icon">→</span>
+              Implemented data validation and conditional formatting for
+              error-free data entry
+            </li>
+            <li>
+              <span class="experience-icon">→</span>
+              Utilized pivot tables and charts for dynamic data summarization
+              and reporting
+            </li>
+            <li>
+              <span class="experience-icon">→</span>
+              Delivered projects involving MS Excel and PowerPoint for
+              management and presentations
+            </li>
+            <li>
+              <span class="experience-icon">→</span>
+              Worked independently for one year as a web developer
+            </li>
+            <li>
+              <span class="experience-icon">→</span>
+              Specialized in creating websites using MERN Stack
+            </li>
+          </ul>
+        </div>
+
+        <div id="education" class="education tab-content">
+          <h2 class="content-heading">Education Background</h2>
+          <div class="education-item">
+            <h3 class="education-title">Graduation</h3>
+            <p class="education-details">
+              BCA - From Babasaheb Bhimrao Ambedkar Bihar University,
+              Muzaffarpur, Bihar 842001
+            </p>
+          </div>
+          <div class="education-item">
+            <h3 class="education-title">Class-XII</h3>
+            <p class="education-details">
+              Board Name: Bihar School Examination Board, Patna
+            </p>
+            <p class="education-details">Year of passing: 2021</p>
+            <p class="education-details">Score: 58.8%</p>
+          </div>
+          <div class="education-item">
+            <h3 class="education-title">Class-X</h3>
+            <p class="education-details">
+              Board Name: Bihar School Examination Board, Patna
+            </p>
+            <p class="education-details">Year of passing: 2019</p>
+            <p class="education-details">Score: 56.8%</p>
+          </div>
+        </div>
+      </div>
+      <div class="about-image">
+        <img
+          class="about-img"
+          src="sandhya devi 2.png"
+          alt="Professional Portrait"
+        />
+      </div>
+    </div>
+    <!-- Service sections----------------------------------------------------- -->
+
+    <div class="service-section" id="service">
+      <div class="container">
+        <h2 class="section-title">Our Services</h2>
+        <p class="section-subtitle">
+          Comprehensive solutions tailored to your needs
+        </p>
+
+        <div class="service-grid">
+          <div class="service-card">
+            <div class="card-icon">
+              <img
+                src="https://media.geeksforgeeks.org/wp-content/uploads/20240703165023/Frontend-Development-(1).webp"
+                alt="Frontend Development"
+              />
+            </div>
+            <h3>Frontend Development</h3>
+            <div class="card-content">
+              <h4>User Interface Excellence</h4>
+              <p>
+                We craft responsive, accessible, and visually stunning
+                interfaces that engage users and drive conversions using the
+                latest frameworks and technologies.
+              </p>
+              <ul class="service-features">
+                <li>React/Vue/Angular Development</li>
+                <li>Responsive Design</li>
+                <li>Performance Optimization</li>
+                <li>UI/UX Implementation</li>
+              </ul>
+            </div>
+          </div>
+
+          <div class="service-card">
+            <div class="card-icon">
+              <img
+                src="https://media.geeksforgeeks.org/wp-content/uploads/20240701150157/Backend-Development.webp"
+                alt="Backend Development"
+              />
+            </div>
+            <h3 class="backend">Backend Development</h3>
+            <div class="card-content">
+              <h4 class="backend-subheader">Robust Server-Side Solutions</h4>
+              <p>
+                We build secure, scalable backend systems with optimized
+                databases and efficient APIs to power your applications.
+              </p>
+              <ul class="service-features">
+                <li>API Development & Integration</li>
+                <li>Database Architecture</li>
+                <li>Cloud Infrastructure</li>
+                <li>Security Implementation</li>
+              </ul>
+            </div>
+          </div>
+
+          <div class="service-card">
+            <div class="card-icon">
+              <img
+                src="https://www.keycdn.com/img/support/full-stack-development.png"
+                alt="Full Stack Development"
+              />
+            </div>
+            <h3>Full Stack Development</h3>
+            <div class="card-content">
+              <h4>End-to-End Solutions</h4>
+              <p>
+                From concept to deployment, we deliver complete web applications
+                with seamless integration between frontend and backend
+                components.
+              </p>
+              <ul class="service-features">
+                <li>Complete Application Development</li>
+                <li>DevOps & Deployment</li>
+                <li>Cross-platform Compatibility</li>
+                <li>Maintenance & Support</li>
+              </ul>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <!-- --------------------footer---------------------------------------------------- -->
+
+    <div class="footer-section" id="footer">
+      <div class="footer">
+        <h1 class="footer-title">Sandhya Kumari</h1>
+        <p class="footer-text">Full Stack Web Developer</p>
+        <p class="footer-text">Creating Responsive Web Applications</p>
+      </div>
+      <div class="footer">
+        <h1 class="footer-title">Social Media</h1>
+        <p class="footer-text">
+              <i class="fab fa-github"></i> GitHub:
+         <a href="https://github.com/Sandhya00066" target="_blank" class="github">https://github.com/Sandhya00066</a>
+        
+          
+        </p>
+        <p class="footer-text">
+          <i class="fab fa-linkedin"></i> LinkedIn:
+
+          <a href="https://www.linkedin.com/in/sandhya-kumari-790259326/"
+            target="_blank" class="linkdin">https://www.linkedin.com/in/sandhya-kumari-790259326/</a
+          >
+        </p>
+      </div>
+      <div class="footer">
+        <h1 class="footer-title">Contact Us</h1>
+        <p class="footer-text">
+          <i class="fas fa-phone"></i>
+          <span class="Mobile-title">  Mobile no:</span>
+         <span class="mobNo"> +91 6299584951</span>
+        </p>
+        <p class="footer-text">
+          <i class="fas fa-envelope"></i>
+          <span class="email-title"> Email Id: </span>
+         <span class="email">sandhya97099@gmail.com</span>
+        </p>
+      </div>
+    </div>
+  </body>
+  <script src="script.js"></script>
+</html>
